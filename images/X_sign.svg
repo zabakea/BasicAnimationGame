@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #603813;
+        stroke-miterlimit: 10;
+        stroke-width: 16px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #ffdd80;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="1538.5" y="-1181.5" width="1920" height="1077"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="-463.5" y="-1201.5" width="1919" height="1079"/>
+    </clipPath>
+  </defs>
+  <g id="Instructions">
+    <g id="xsign">
+      <line class="cls-2" x1="13.21" y1="12.15" x2="78.04" y2="78.1"/>
+      <line class="cls-2" x1="78.6" y1="12.71" x2="12.65" y2="77.54"/>
+    </g>
+  </g>
+  <g id="MASTER_LAYER" data-name="MASTER LAYER">
+    <g class="cls-4">
+      <g id="Background">
+        <ellipse class="cls-5" cx="730.5" cy="-111.5" rx="1997" ry="428"/>
+      </g>
+    </g>
+  </g>
+</svg>

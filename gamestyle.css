@@ -1,0 +1,717 @@
+body {
+    margin: 0;
+}
+
+#screen {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#startScreen {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Starting_screen.svg);
+    background-size: 100%;
+}
+
+#InstructionsButton {
+    position: relative;
+    width: auto;
+    height: auto;
+
+    width: 24vw;
+    height: 3.5vw;
+    top: 36.5vw;
+    left: 57vw;
+    cursor: pointer;
+}
+
+#SettingsButton {
+    position: absolute;
+    width: 16vw;
+    height: 3.5vw;
+    top: 41vw;
+    left: 61vw;
+    cursor: pointer;
+}
+
+#PlayGameButton {
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    top: 47vw;
+    left: 57vw;
+    cursor: pointer;
+}
+
+#instructions {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#Instructions1 {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Instruction_1.svg);
+    background-size: 100%;
+}
+
+#Instructions2 {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Instruction_2.svg);
+    background-size: 100%;
+}
+
+#Instructions3 {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Instruction_3.svg);
+    background-size: 100%;
+}
+
+#Instructions4 {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Instruction_4.svg);
+    background-size: 100%;
+}
+
+#Instructions5 {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Instruction_5.svg);
+    background-size: 100%;
+}
+
+#Instructions6 {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Instruction_6.svg);
+    background-size: 100%;
+}
+
+#ClosePage {
+    position: absolute;
+    top: 3vw;
+    left: 86vw;
+    background-image: url(images/X_sign.svg);
+    background-color: transparent;
+    border: none;
+    background-size: 100%;
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+}
+
+#PrevPage {
+    position: absolute;
+    top: 48vw;
+    left: 36vw;
+    background-image: url(images/pointer_backward.svg);
+    background-color: transparent;
+    border: none;
+    background-size: 100%;
+    width: 6vw;
+    height: 4.6vw;
+    cursor: pointer;
+}
+
+#NextPage {
+    position: absolute;
+    top: 48vw;
+    left: 64vw;
+    background-image: url(images/pointer_forward.svg);
+    background-color: transparent;
+    border: none;
+    background-size: 100%;
+    width: 6vw;
+    height: 4.6vw;
+    cursor: pointer;
+
+}
+
+#settingsScreen {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(images/Settings_screen.svg);
+    background-size: 100%;
+
+}
+
+#ClosePageSettings {
+    position: absolute;
+    top: 3vw;
+    left: 86vw;
+    background-image: url(images/X_sign.svg);
+    background-color: transparent;
+    border: none;
+    background-size: 100%;
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+}
+
+#game {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#background {
+    position: absolute;
+    background-image: url(images/Background1.svg);
+    width: 100vw;
+    height: 56.25vw;
+    background-size: 100%;
+
+
+}
+
+
+#badges_empty {
+    position: absolute;
+    background-image: url(images/badge_placeholder.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 1vw;
+    left: 2vw;
+    height: 4vw;
+    width: 20vw;
+    display: flex;
+}
+
+
+#handcuffs_empty {
+    position: absolute;
+    background-image: url(images/handcuffs_placeholder.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 5vw;
+    left: 2vw;
+    height: 4vw;
+    width: 15vw;
+    display: flex;
+}
+
+#time {
+    position: absolute;
+    top: 1.2vw;
+    left: 75vw;
+    width: 15.5vw;
+    height: 3vw;
+    background-color: #8C6239;
+}
+
+#time_sprite {
+    width: 14.5vw;
+    height: 2vw;
+    margin: .5vw;
+    transform-origin: left bottom;
+}
+
+.timelapse {
+    animation-name: timelapse_kf;
+    animation-duration: 60s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes timelapse_kf {
+    0% {
+        transform: scaleX(1);
+        background-color: lime;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        transform: scaleX(0);
+        background-color: red;
+    }
+}
+
+#settingsWheel {
+    position: absolute;
+    background-image: url(images/Settings.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    border: none;
+    top: 1.2vw;
+    left: 95vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+}
+
+#restart {
+    position: absolute;
+    background-image: url(images/restart.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*    background-color: transparent;
+    border: none;*/
+    top: 1.2vw;
+    left: 91.5vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+}
+
+#game_elements {
+    position: absolute;
+    width: 100vw;
+    height: 56.25vw;
+    cursor: url(images/pointer%20copy.svg), auto;
+}
+
+#windowA {
+    position: absolute;
+}
+
+#windowB {
+    position: absolute;
+}
+
+#windowC {
+    position: absolute;
+}
+
+#windowD {
+    position: absolute;
+}
+
+.window1 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 21.05vw;
+    left: 22.25vw;
+    background-size: 100%;
+}
+
+
+
+.window2 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 21.05vw;
+    left: 26.27vw;
+    background-size: 100%;
+}
+
+
+
+.window3 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 21.09vw;
+    left: 30.34vw;
+    background-size: 100%;
+}
+
+
+.window4 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.59vw;
+    left: 22.3vw;
+    background-size: 100%;
+
+}
+
+
+.window5 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.58vw;
+    left: 26.3vw;
+    background-size: 100%;
+}
+
+.window6 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.6vw;
+    left: 30.38vw;
+    background-size: 100%;
+}
+
+.window7 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 25.7vw;
+    left: 35.39vw;
+    background-size: 100%;
+}
+
+
+.window8 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 25.7vw;
+    left: 42.2vw;
+    background-size: 100%;
+}
+
+.window9 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 32.15vw;
+    left: 35.39vw;
+    background-size: 100%;
+}
+
+.window10 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 17.5vw;
+    left: 49.45vw;
+    background-size: 100%;
+}
+
+.window11 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 22.3vw;
+    left: 49.45vw;
+    background-size: 100%;
+}
+
+.window12 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 27.15vw;
+    left: 49.44vw;
+    background-size: 100%;
+}
+
+.window13 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.05vw;
+    left: 56.20vw;
+    background-size: 100%;
+}
+
+.window14 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.05vw;
+    left: 60.21vw;
+    background-size: 100%;
+}
+
+.window15 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.17vw;
+    left: 68.34vw;
+    background-size: 100%;
+}
+
+.window16 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.20vw;
+    left: 72.91vw;
+    background-size: 100%;
+
+}
+
+.window17 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 19.36vw;
+    left: 80.17vw;
+    background-size: 100%;
+}
+
+.window18 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 19.36vw;
+    left: 87vw;
+    background-size: 100%;
+}
+
+.window19 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.25vw;
+    left: 80.12vw;
+    background-size: 100%;
+}
+
+.window20 {
+    position: absolute;
+    width: 2.75vw;
+    height: 3.75vw;
+    top: 26.25vw;
+    left: 87.1vw;
+    background-size: 100%;
+}
+
+
+/*OVO SU MI CLASSES S LIKOVIMA*/
+
+.character1 {
+    background-image: url(images/Bad_Cowboy.svg);
+}
+
+.character2 {
+    background-image: url(images/Priest.svg);
+}
+
+.character3 {
+    background-image: url(images/Little_girl.svg);
+}
+
+.character4 {
+    background-image: url(images/Granny.svg);
+}
+
+.character5 {
+    background-image: url(images/Bad_Cowboy.svg);
+}
+
+.character6 {
+    background-image: url(images/Priest.svg);
+}
+
+.character7 {
+    background-image: url(images/Little_girl.svg);
+}
+
+.character8 {
+    background-image: url(images/Granny.svg);
+}
+
+
+.shake {
+    animation-name: shake_kf;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+}
+
+.shake2 {
+    animation-name: shake_kf;
+    animation-iteration-count: 1;
+    animation-duration: 1.4s;
+}
+
+@keyframes shake_kf {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+#badge1 {
+    position: absolute;
+    top: 0.35vw;
+}
+
+#badge2 {
+    position: absolute;
+    top: 0.3vw;
+    left: 2.7vw;
+}
+
+#badge3 {
+    position: absolute;
+    top: 0.35vw;
+    left: 5.6vw;
+}
+
+#badge4 {
+    position: absolute;
+    top: 0.35vw;
+    left: 8.5vw;
+}
+
+#badge5 {
+    position: absolute;
+    top: 0.35vw;
+    left: 11.4vw;
+}
+
+#badge6 {
+    position: absolute;
+    top: 0.35vw;
+    left: 14.1vw;
+}
+
+#badge7 {
+    position: absolute;
+    top: 0.35vw;
+    left: 17vw;
+}
+
+.fullbadge {
+    background-image: url(images/Badge_full1.svg);
+    background-size: 100%;
+    width: 3.1vw;
+    height: 3.1vw;
+
+}
+
+#handcuffs1 {
+    position: absolute;
+
+}
+
+#handcuffs2 {
+    position: absolute;
+    left: 5vw;
+}
+
+#handcuffs3 {
+    position: absolute;
+    left: 10vw;
+}
+
+.fullhandcuffs {
+    background-image: url(images/Handcuffs_full1.svg);
+    background-size: 100%;
+    width: 5vw;
+    height: 4vw;
+    background-repeat: no-repeat;
+}
+
+#outoftime {
+    position: absolute;
+    width: 45vw;
+    height: 40vw;
+    left: 27vw;
+    top: 7vw;
+    background-image: url(images/outoftime.svg);
+    background-size: 100%;
+}
+
+#ootRestart {
+    position: absolute;
+    cursor: pointer;
+    width: 3vw;
+    height: 3vw;
+    top: 33.6vw;
+    left: 23.6vw;
+}
+    
+
+#youwon {
+    position: absolute;
+    width: 45vw;
+    height: 40vw;
+    left: 27vw;
+    top: 7vw;
+    background-image: url(images/youwin.svg);
+    background-size: 100%;
+}
+
+#wonRestart {
+    position: absolute;
+    cursor: pointer;
+    width: 3vw;
+    height: 3vw;
+    top: 35.5vw;
+    left: 21.5vw;
+}
+
+#youlost {
+    position: absolute;
+    width: 45vw;
+    height: 40vw;
+    left: 27vw;
+    top: 7vw;
+    background-image: url(images/youlose.svg);
+    background-size: 100%;
+
+}
+#lostRestart {
+    position: absolute;
+    cursor: pointer;
+    width: 3vw;
+    height: 3vw;
+    top: 34.3vw;
+    left: 21vw;
+}
+
+.hide {
+    display: none;
+}
+.pause {
+    animation-play-state: paused;
+}

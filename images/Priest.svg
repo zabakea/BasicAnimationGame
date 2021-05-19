@@ -1,0 +1,43 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="75" viewBox="0 0 55 75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-4 {
+        fill: #f8bdc1;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="0.55" y="1.26" width="53.89" height="72.47"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <g>
+      <rect class="cls-3" x="0.9" y="53.95" width="53.02" height="33.53" rx="12"/>
+      <rect class="cls-3" x="13.5" y="73.26" width="29.05" height="67.07" rx="12"/>
+      <ellipse class="cls-4" cx="28.06" cy="37.24" rx="15.83" ry="19.41"/>
+      <path class="cls-5" d="M28.06,33.72c0,3.41-3.08,7.89-6.29,7.89s-5.31-4.48-5.31-7.89,4-7.18,7.19-7.18S28.06,30.31,28.06,33.72Z"/>
+      <path class="cls-5" d="M28,33.72c0,3.41,3.12,7.89,6.37,7.89s5.37-4.48,5.37-7.89-4-7.18-7.28-7.18S28,30.31,28,33.72Z"/>
+      <ellipse class="cls-3" cx="24.01" cy="33.11" rx="0.39" ry="0.77"/>
+      <ellipse class="cls-3" cx="30.39" cy="33.11" rx="0.39" ry="0.77"/>
+      <rect class="cls-3" x="15.72" y="11.96" width="24.68" height="12.53" rx="4.77"/>
+      <rect class="cls-3" x="6.79" y="21.83" width="42.55" height="2.89" rx="1.45"/>
+      <rect class="cls-5" x="26.78" y="56.72" width="2.56" height="2.41" transform="translate(-29.86 85.99) rotate(-90)"/>
+      <rect class="cls-3" x="24.63" y="48.7" width="6.43" height="0.38"/>
+    </g>
+  </g>
+</svg>

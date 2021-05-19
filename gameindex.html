@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="gamestyle.css">
+</head>
+
+<body>
+    <div id="screen">
+        <div id="game">
+            <div id="background"></div>
+            <div id="game_elements">
+
+                <div id="windowA">
+                    <div class="sprite"></div>
+                </div>
+                <div id="windowB">
+                    <div class="sprite"></div>
+                </div>
+                <div id="windowC">
+                    <div class="sprite"></div>
+                </div>
+                <div id="windowD">
+                    <div class="sprite"></div>
+                </div>
+
+            </div>
+
+            <div id="game_ui">
+                <div id="badges_empty">
+                    <div id="badge1"></div>
+                    <div id="badge2"></div>
+                    <div id="badge3"></div>
+                    <div id="badge4"></div>
+                    <div id="badge5"></div>
+                    <div id="badge6"></div>
+                    <div id="badge7"></div>
+                </div>
+                <div id="handcuffs_empty">
+                    <div id="handcuffs1"></div>
+                    <div id="handcuffs2"></div>
+                    <div id="handcuffs3"></div>
+                </div>
+
+                <div id="time">
+                    <div id="time_sprite"></div>
+                </div>
+                <div id="settings">
+                    <div class="settingWheelButton">
+                        <button id="settingsWheel"></button>
+                    </div>
+                </div>
+                <div id="restart"></div>
+
+                <audio id="background_music" src="sounds/background%20sound.wav"></audio>
+            </div>
+        </div>
+        <div id="startScreen">
+            <div id="InstructionsButton"></div>
+            <div id="SettingsButton"></div>
+            <div id="PlayGameButton"></div>
+        </div>
+
+        <div id="instructions">
+            <div id="pages">
+                <div id="Instructions1"></div>
+                <div id="Instructions2"></div>
+                <div id="Instructions3"></div>
+                <div id="Instructions4"></div>
+                <div id="Instructions5"></div>
+                <div id="Instructions6"></div>
+            </div>
+            <div class="buttons">
+                <button id="PrevPage"></button>
+                <button id="NextPage"></button>
+                <button id="ClosePage"></button>
+            </div>
+        </div>
+        <div id="settingsScreen">
+            <div class="buttonsSettings">
+                <button id="ClosePageSettings"></button>
+            </div>
+        </div>
+        <div id="youwon">
+            <div id="wonRestart"></div>
+        </div>
+        <div id="youlost">
+            <div id="lostRestart"></div>
+        </div>
+        <div id="outoftime">
+            <div id="ootRestart"></div>
+        </div>
+    </div>
+    <script src="gamescript.js"></script>
+</body></html>

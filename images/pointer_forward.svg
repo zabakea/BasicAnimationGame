@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="80" viewBox="0 0 120 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #c7c1bc;
+      }
+
+      .cls-3 {
+        fill: #564a41;
+      }
+
+      .cls-4 {
+        fill: #736357;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-7 {
+        fill: #ffdd80;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="1752" y="-1158" width="1920" height="1077"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" x="-250" y="-1178" width="1919" height="1079"/>
+    </clipPath>
+  </defs>
+  <g id="Instructions">
+    <g id="forward_gun" data-name="forward gun">
+      <path class="cls-2" d="M117,26.51a3.87,3.87,0,0,0,0-.49,3.7,3.7,0,0,0,.06-.48h0A4.55,4.55,0,0,0,112.5,21l-54.06-.36a4.53,4.53,0,0,0-4.55,4.5h0c0,.17,0,.32,0,.48a3.91,3.91,0,0,0,0,.48,4.55,4.55,0,0,0,4.5,4.57l54.05.36A4.55,4.55,0,0,0,117,26.51Z"/>
+      <rect class="cls-3" x="80.89" y="-3.66" width="9.07" height="63.11" rx="1.08" transform="translate(113.89 -57.34) rotate(90.38)"/>
+      <rect class="cls-4" x="28.94" y="7.95" width="27.72" height="41.76" rx="3.29" transform="translate(71.91 -13.77) rotate(90.38)"/>
+      <rect x="43.38" y="10.31" width="3.2" height="20.84" transform="translate(66.01 -24.11) rotate(90.38)"/>
+      <rect x="43.35" y="15.61" width="3.2" height="20.84" transform="translate(71.27 -18.75) rotate(90.38)"/>
+      <rect x="43.31" y="20.78" width="3.2" height="20.84" transform="translate(76.41 -13.5) rotate(90.38)"/>
+      <rect x="43.28" y="26.11" width="3.2" height="20.84" transform="translate(81.7 -8.1) rotate(90.38)"/>
+      <path d="M4.13,56.91,13.69,29.3A10.72,10.72,0,0,1,27.3,22.69h0a10.74,10.74,0,0,1,6.59,13.62L24.33,63.93a10.72,10.72,0,0,1-13.6,6.61h0a10.74,10.74,0,0,1-6.6-13.63"/>
+      <rect x="103.3" y="18.69" width="4.83" height="3.27" rx="0.42" transform="translate(126.75 -85.26) rotate(90.38)"/>
+    </g>
+  </g>
+  <g id="MASTER_LAYER" data-name="MASTER LAYER">
+    <g class="cls-6">
+      <g id="Background">
+        <ellipse class="cls-7" cx="944" cy="-88" rx="1997" ry="428"/>
+      </g>
+    </g>
+  </g>
+</svg>

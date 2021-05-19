@@ -1,0 +1,23 @@
+<svg id="Layer_8" data-name="Layer 8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="80" viewBox="0 0 600 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #8c6239;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="273" y="-2" width="322" height="93"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <rect id="moving_bar" class="cls-3" x="326" y="11" width="321" height="63"/>
+  </g>
+</svg>
